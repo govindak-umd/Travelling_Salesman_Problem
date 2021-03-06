@@ -8,27 +8,27 @@ int TravellingSalesman::solveTravellingSalesman() {
             {15, 35, 0,  30},
             {20, 25, 30, 0}
     };
-    for(int i = 0; i < V; i ++){
-        if(i!=source){
+    for (int i = 0; i < V; i++) {
+        if (i != source) {
             vertices.push_back(i);
         }
     }
 
     // Do while loop
-    do{
-        int current_cost {0};
+    do {
+        int current_cost{0};
         int temp_source = source;
-        for(int i = 0; i < vertices.size();i++){
-            current_cost+=graph[temp_source][vertices[i]];
+        for (int i = 0; i < vertices.size(); i++) {
+            current_cost += graph[temp_source][vertices[i]];
             temp_source = vertices[i];
         }
         current_cost += graph[temp_source][source];
 
-        travel_cost = std::min(travel_cost,current_cost);
-    } while(
-            std::next_permutation(vertices.begin(),vertices.end())
+        travel_cost = std::min(travel_cost, current_cost);
+    } while (
+            std::next_permutation(vertices.begin(), vertices.end())
             );
-    std :: cout <<" Travel Cost : " <<  travel_cost << std :: endl;
+    std::cout << " Travel Cost : " << travel_cost << std::endl;
     return travel_cost;
 }
 

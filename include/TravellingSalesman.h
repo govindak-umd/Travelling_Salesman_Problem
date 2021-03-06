@@ -3,6 +3,7 @@
 
 #include <bits/stdc++.h>
 #include <vector>
+
 #define V 4
 
 class TravellingSalesman {

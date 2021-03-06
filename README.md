@@ -7,3 +7,4 @@ only.
 
 - Learn more about the Travelling Salesman Problem [here](https://en.wikipedia.org/wiki/Travelling_salesman_problem).
 - Learn about P and NP Problems through [this](https://www.youtube.com/watch?v=OY41QYPI8cw) YouTube Video. 
+- Learn about Hamiltonian Path [here](https://en.wikipedia.org/wiki/Hamiltonian_path).

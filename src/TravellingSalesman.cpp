@@ -1,6 +1,10 @@
 #include "../include/TravellingSalesman.h"
 #include <vector>
 
+/**
+ * Solves the travelling salesman problem
+ * @return The travel cost
+ */
 int TravellingSalesman::solveTravellingSalesman() {
     int graph[][V] = {
             {0,  10, 15, 20},
@@ -32,18 +36,18 @@ int TravellingSalesman::solveTravellingSalesman() {
     return travel_cost;
 }
 
+/**
+ * Getter function to get the travel cost
+ * @return the travel cost for the salesman
+ */
 int TravellingSalesman::getTravelCost() {
     return travel_cost;
 }
 
+/**
+ * Getter function to get the vertices of the graph
+ * @return vertices of the graph
+ */
 std::vector<int> TravellingSalesman::getVertices() {
     return vertices;
-}
-
-void TravellingSalesman::setVertices(std::vector<int> ver) {
-    vertices = ver;
-}
-
-void TravellingSalesman::setTravelCost(int min_cost) {
-    travel_cost = min_cost;
 }

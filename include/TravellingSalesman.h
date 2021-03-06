@@ -6,36 +6,42 @@
 
 #define V 4
 
+/**
+ * Travelling salesman class0
+ */
+
 class TravellingSalesman {
+
 private:
-    // Travel Cost
 
     int travel_cost = INT_MAX;
-
-    // All vertices of the graph is stored in this vector
-
     std::vector<int> vertices;
-
-    // Source node
-
     int source{0};
+
 public:
 
-    // Essential Functions
+    /**
+     * Solves the travelling salesman problem
+     * @return The travel cost
+     */
     int solveTravellingSalesman();
 
-//    void getHamiltonianPath();
+    /**
+     * To get the Hamiltonian Path
+     */
+    void getHamiltonianPath();
 
-    // Getters
+    /**
+     * Getter function to get the travel cost
+     * @return the travel cost for the salesman
+     */
     int getTravelCost();
 
+    /**
+     * Getter function to get the vertices of the graph
+     * @return vertices of the graph
+     */
     std::vector<int> getVertices();
-
-    //Setters
-
-    void setVertices(std::vector<int> s);
-
-    void setTravelCost(int min_cost);
 
 
 };

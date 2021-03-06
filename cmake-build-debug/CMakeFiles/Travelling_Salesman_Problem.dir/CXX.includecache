@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/govin/Desktop/Travelling_Salesman_Problem/include/TravellingSalesman.h
+bits/stdc++.h
+-
+vector
+-
+
+C:/Users/govin/Desktop/Travelling_Salesman_Problem/src/TravellingSalesman.cpp
+../include/TravellingSalesman.h
+C:/Users/govin/Desktop/Travelling_Salesman_Problem/include/TravellingSalesman.h
+vector
+-
+
+C:/Users/govin/Desktop/Travelling_Salesman_Problem/src/main.cpp
+iostream
+-
+../include/TravellingSalesman.h
+C:/Users/govin/Desktop/Travelling_Salesman_Problem/include/TravellingSalesman.h
+bits/stdc++.h
+-
+

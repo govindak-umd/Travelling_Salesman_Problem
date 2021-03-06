@@ -3,6 +3,7 @@
 
 #include <bits/stdc++.h>
 #include <vector>
+#define V 4
 
 class TravellingSalesman {
 private:
@@ -14,6 +15,9 @@ private:
 
     std::vector<int> vertices;
 
+    // Source node
+
+    int source{0};
 public:
 
     // Essential Functions

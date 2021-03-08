@@ -3,6 +3,11 @@
 This repository has a basic C++ solution to the Travelling Salesman Problem. This repository is for learning purposes
 only.
 
+Next things to do:
+
+ - Solve the Travelling Salesman Problem using Python
+ - Travelling Salesman Problem - Visualization
+
 ### Some great References:
 
 - Learn more about the Travelling Salesman Problem [here](https://en.wikipedia.org/wiki/Travelling_salesman_problem).

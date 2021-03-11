@@ -7,6 +7,7 @@ Next things to do:
 
  - Solve the Travelling Salesman Problem using Python
  - Travelling Salesman Problem - Visualization
+ - Give cities and coordinates and check the outputs
 
 ### Some great References:
 
